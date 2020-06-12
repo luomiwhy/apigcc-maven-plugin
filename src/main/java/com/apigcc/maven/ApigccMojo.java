@@ -1,7 +1,7 @@
 package com.apigcc.maven;
 
-import com.apigcc.core.Apigcc;
-import com.apigcc.core.Context;
+import com.github.apigcc.core.Apigcc;
+import com.github.apigcc.core.Context;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 /**
  * generate rest doc with apigcc
  */
-@Mojo(name = "build")
+@Mojo(name = "apigcc")
 public class ApigccMojo extends AbstractMojo {
 
     MavenProject project;

@@ -37,3 +37,4 @@ when you compile source code, apiggs will build rest doc.
 1. jar 源码依赖的jar包目录，以逗号隔开
 1. ignore 忽略某些类型
 1. version 文档版本号
+1. urlPrefix 生成url时添加的前缀

@@ -37,6 +37,8 @@ public class ApigccMojo extends AbstractMojo {
     String version;
     @Parameter
     String css;
+    @Parameter
+    String urlPrefix;
 
     @Override
     public void execute() {
@@ -91,6 +93,9 @@ public class ApigccMojo extends AbstractMojo {
         }
         if (css != null) {
             context.setCss(css);
+        }
+        if (urlPrefix != null) {
+            context.setUrlPrefix(urlPrefix);
         }
 
         Apigcc apigcc = new Apigcc(context);

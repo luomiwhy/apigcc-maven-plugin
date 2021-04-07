@@ -6,7 +6,7 @@
 
     <groupId>com.apigcc</groupId>
     <artifactId>apigcc-maven-plugin</artifactId>
-    <version>1.7.1</version>
+    <version>1.7.2</version>
 
     <name>apigcc-maven-plugin</name>
     <description>easy use apigcc with maven.</description>
@@ -107,6 +107,11 @@
             <id>bintray-apigcc-maven</id>
             <url>https://api.bintray.com/maven/apigcc/maven/apigcc-maven-plugin/;publish=1</url>
         </repository>
+        <!--        <repository>-->
+        <!--            <id>nexus-releases</id>-->
+        <!--            <name>Nexus Release Repository</name>-->
+        <!--            <url></url>-->
+        <!--        </repository>-->
     </distributionManagement>
 
 </project>
